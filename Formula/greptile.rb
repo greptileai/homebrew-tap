@@ -1,13 +1,11 @@
 # greptile.rb — Homebrew formula for the Greptile CLI.
-# Lives at greptileai/homebrew-tap/Formula/greptile.rb.
-# Updated by .github/workflows/cli-release.yml on every cli-v* tag.
 
 class Greptile < Formula
   desc "Greptile code review from your terminal"
   homepage "https://greptile.com"
-  url "https://github.com/greptileai/cli/releases/download/v3.0.0/greptile.js"
-  sha256 "REPLACE_WITH_DIST_SHA256"
-  version "3.0.0"
+  url "https://github.com/greptileai/cli/releases/download/v3.0.1/greptile.js"
+  sha256 "7e9661ee1d3f21155cf1c683891902f9851e18bff5e2caec5a62e191f203dc1b"
+  version "3.0.1"
   license "MIT"
 
   depends_on "node"
