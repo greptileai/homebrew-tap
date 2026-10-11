@@ -3,8 +3,8 @@
 class Greptile < Formula
   desc "AI code review from your terminal"
   homepage "https://greptile.com"
-  url "https://github.com/greptileai/cli/releases/download/v3.6.1/greptile.js"
-  sha256 "7b1f2828f5fbb8c341c7a8b69f17876419a7729cec4e9f379ce634ce1923fe49"
+  url "https://github.com/greptileai/cli/releases/download/v3.6.2/greptile.js"
+  sha256 "82e04c3f76fe06780b41dce5ca81163ca60dd5e53084269a4fdeee3e588c0a28"
   license "MIT"
 
   depends_on "node"
